@@ -12,11 +12,7 @@
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [Example Output](#-example-output)
-- [Requirements](#-requirements)
-- [Extensions](#-extensions)
-- [Troubleshooting](#-troubleshooting)
 - [Legal Notices](#️-legal-notices)
-- [License](#-license)
 
 ## 🚀 Features
 | Feature | Status |
