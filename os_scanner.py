@@ -15,16 +15,20 @@ def get_local_info():
     print('*------------------------------------------*')
     print('          LOCALE SYSTEM')
     print('*------------------------------------------*')
+    print('')
     print(f'OS Name: {os_name}')
     print(f'OS Release: {os_release}')
     print(f'OS Version: {os_version}')
     print(f'Platform Info: {platform_info}')
+    print('')
     print('*------------------------------------------*\n')
 
 def scan_target(target_ip):
     print(f'*------------------------------------------*')
+    print('')
     print(f'          TARGET SCAN: {target_ip}')
     print(f'          Time: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}')
+    print('')
     print('*------------------------------------------*')
     
     try:
