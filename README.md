@@ -56,7 +56,7 @@ python3 os_scanner.py 172.105.246.250
 python3 os_scanner.py scanme.nmap.org
 
 # Local system info
-python3 os_scanner.py 10.10.10.5 --local
+python3 os_scanner.py --local
 ```
 
 ## 📊 Example Output
