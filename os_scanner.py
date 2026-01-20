@@ -45,7 +45,6 @@ def scan_target(target_ip):
         if not open_ports:
             print("  No open ports found")
         
-        # 2. Hostname Resolution
         print("\nHostname Resolution...")
         try:
             hostname = socket.gethostbyaddr(target_ip)[0]
