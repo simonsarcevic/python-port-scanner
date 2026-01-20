@@ -48,14 +48,14 @@ chmod +x os_scanner.py
 
 ## 🎯 Usage
 ```bash
-# Hilfe
+# Help
 python3 os_scanner.py --help
 
 # Basis Scan
 python3 os_scanner.py 172.105.246.250
 python3 os_scanner.py scanme.nmap.org
 
-# Mit lokaler System Info
+# Local system info
 python3 os_scanner.py 10.10.10.5 --local
 ```
 
