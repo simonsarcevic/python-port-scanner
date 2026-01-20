@@ -97,19 +97,36 @@ def enum_smb(target_ip):
 
 def main():
     parser = argparse.ArgumentParser(description='System Scanner')
-    parser.add_argument('target', nargs='?', help='Target IP/Hostname')
-    parser.add_argument('-l', '--local', action='store_true', help='Show locale Info')
-    
+    parser.add_argument(
+        'target',
+        nargs='?',
+        help='Target IP/Hostname (optional if --local is used)'
+    )
+    parser.add_argument(
+        '-l', '--local',
+        action='store_true',
+        help='Show local system info'
+    )
+
     args = parser.parse_args()
+
+    if args.local and not args.target:
+        get_local_info()
+        return
+
     if not args.target:
         parser.print_help()
-        print("\nExample: python3 os_scanner.py 192.168.0.12")
+        print("\nExamples:")
+        print("  python3 os_scanner.py -l")
+        print("  python3 os_scanner.py 192.168.0.12")
+        print("  python3 os_scanner.py 192.168.0.12 -l")
         return
-    
+
     if args.local:
         get_local_info()
-    
+
     scan_target(args.target)
+
 
 if __name__ == "__main__":
     main()
