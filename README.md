@@ -28,7 +28,7 @@
 ## ⚡ Quickstart
 ```bash
 # 1. Download
-curl -O https://raw.githubusercontent.com/YOUR_USERNAME/os-scanner/main/os_scanner.py
+curl -O https://raw.githubusercontent.com/simonsarcevic/os-scanner/main/os_scanner.py
 
 # 2. Run
 chmod +x os_scanner.py
