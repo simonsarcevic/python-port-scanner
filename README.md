@@ -42,7 +42,7 @@ python3 os_scanner.py 10.10.10.5
 sudo apt update
 sudo apt install python3 nmap smbclient
 git clone https://github.com/simonsarcevic/python-port-scanner
-cd os-scanner
+cd python-port-scanner
 chmod +x os_scanner.py
 ```
 
