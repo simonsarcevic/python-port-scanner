@@ -41,7 +41,7 @@ python3 os_scanner.py 10.10.10.5
 ```bash
 sudo apt update
 sudo apt install python3 nmap smbclient
-git clone https://github.com/YOUR_USERNAME/os-scanner.git
+git clone https://github.com/simonsarcevic/python-port-scanner
 cd os-scanner
 chmod +x os_scanner.py
 ```
